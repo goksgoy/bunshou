@@ -1,5 +1,4 @@
 body {
-    margin-top: 50%;
     font-family: Arial, sans-serif;
     background-color: darkgrey;
     margin: 0;
@@ -7,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
+    height: 80vh;
   }
   
   .container {
@@ -16,16 +15,16 @@ body {
     padding: 40px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    width: 600px;
+    width: 300px;
   }
   
   .flashcard {
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 10px;
     background-color: #f0f0f0;
     border-radius: 10px;
     font-size: 1.5rem;
-    min-height: 140px;
+    min-height: auto;
   }
   
   button {
